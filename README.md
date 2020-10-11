@@ -1,1 +1,1 @@
-# RDF_QDAG
+This repository contains various tools allowing to test the RDF QDAG system. This system relies on graph exploration and fragmentation in order to evaluation Sparql queries. Various libraries and scripts are provided. Queries that integrated BGP, Wildcards, Order by and Group By are supported.

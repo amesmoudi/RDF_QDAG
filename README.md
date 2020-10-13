@@ -7,7 +7,7 @@ This deployment package is provided for Ubuntu 18.04 and Jdk 11. However, we wil
 
 `sudo apt-get update`
 
-##Installing Packages: 
+## Installing Packages: 
 
 ### Oracle JDK 11:
 download manually the jdk-*_linux-x64_bin.tar.gz file from: [Oracle JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
@@ -44,6 +44,7 @@ download manually the jdk-*_linux-x64_bin.tar.gz file from: [Oracle JDK 11](http
 ## Download the RDF QDAG deployment package
 
 `git clone https://github.com/amesmoudi/RDF_QDAG.git`
+
 `cd RDF_QDAG`
 ## Load Data: 
 

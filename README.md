@@ -44,7 +44,7 @@ download manually the jdk-*_linux-x64_bin.tar.gz file from: [Oracle JDK 11](http
 ## Download the RDF QDAG deployment package
 
 `git clone https://github.com/amesmoudi/RDF_QDAG.git`
-
+`cd RDF_QDAG`
 ## Load Data: 
 
 `python3 rdf_loader.py rawdata/watdiv100k/watdiv100k bindata/watdiv100k`

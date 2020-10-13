@@ -1,0 +1,6 @@
+SELECT ?v0 COUNT(?v1) WHERE
+{
+?x <http://xmlns.com/foaf/familyName> ?v0
+?v0 <http://xmlns.com/foaf/familyName> ?v1
+} 
+GROUP BY ?v1 ORDER BY ?v0

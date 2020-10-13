@@ -1,0 +1,6 @@
+SELECT ?v0 ?v3 ?v1 WHERE
+{
+	?v0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> ?v1 .
+	?v3 <http://xmlns.com/foaf/0.1#homepage> ?v1 .
+}
+

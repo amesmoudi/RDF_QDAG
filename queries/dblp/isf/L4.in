@@ -1,0 +1,6 @@
+SELECT ?v0 ?v1 WHERE
+{
+	?v0 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <http://dblp.l3s.de/d2r/resource/publications/books/ph/Shasha92> .
+	?v0 <http://purl.org/dc/terms/tableOfContent> ?v1 .
+}
+

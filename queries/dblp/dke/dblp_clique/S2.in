@@ -1,0 +1,10 @@
+SELECT ?v0 ?v4 ?v6 WHERE
+{
+	?v0 <http://purl.org/dc/terms#tableOfContent> ?v1 .
+	?v0 <http://swrc.ontoware.org/ontology#editor> <http://dblp.l3s.de/d2r/resource/authors/Rodney_W._Topor> .
+	?v0 <http://swrc.ontoware.org/ontology#number> ?v3 .
+	?v0 <http://www.w3.org/2000/01/rdf-schema#label> ?v4 .
+	?v0 <http://purl.org/dc/terms#issued> ?v5 .
+	?v0 <http://purl.org/dc/terms#bibliographicCitation> ?v6 .
+}
+

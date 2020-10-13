@@ -1,0 +1,12 @@
+SELECT distinct ?name1 ?name2 WHERE 
+{
+?p1 <http://yago-knowledge.org/resource/hasFamilyName> ?name1.
+?p2 <http://yago-knowledge.org/resource/hasFamilyName> ?name2.
+?p1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> \wordnet scientist 110560637".
+?p2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> \wordnet scientist 110560637". 
+?p1 <http://yago-knowledge.org/resource/hasWonPrize> ?award. 
+?p2 <http://yago-knowledge.org/resource/hasWonPrize> ?award.
+?p1 <http://yago-knowledge.org/resource/wasBornIn> ?city.
+?p2 <http://yago-knowledge.org/resource/wasBornIn> ?city.
+FILTER (?p1 != ?p2)
+}

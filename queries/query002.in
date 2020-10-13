@@ -1,0 +1,6 @@
+SELECT ?x ?y WHERE
+{
+?x <http://schema.org/email> ?y .
+?x <http://xmlns.com/foaf/familyName> "CORRINE" .
+?x <http://xmlns.com/foaf/givenName> ?e .
+}

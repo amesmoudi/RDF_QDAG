@@ -1,0 +1,8 @@
+SELECT ?v0 ?v4 ?v6 ?v5 WHERE
+{
+	?v0 <http://xmlns.com/foaf/0.1#maker> ?v1 .
+	?v3 <http://purl.org/dc/elements/1.1#creator> ?v1 .
+	?v5 <http://swrc.ontoware.org/ontology#editor> ?v2 .
+	?v2 <http://purl.org/dc/terms#tableOfContent> ?v4 .
+	?v2 <http://purl.org/dc/terms#issued> ?v6 .
+}

@@ -1,0 +1,12 @@
+SELECT distinct ?name1 ?name2 WHERE 
+{
+?a1 <http://www.w3.org/2000/01/rdf-schema#label> ?name1.
+?a2 <http://www.w3.org/2000/01/rdf-schema#label> ?name2.
+?a1 <http://yago-knowledge.org/resource/livesIn> ?city1.
+?a2 <http://yago-knowledge.org/resource/livesIn> ?city2.
+?city1 <http://yago-knowledge.org/resource/isLocatedIn>\England".
+?city2 <http://yago-knowledge.org/resource/isLocatedIn>\England".
+?a1 <http://yago-knowledge.org/resource/actedIn> ?movie.
+?a2 <http://yago-knowledge.org/resource/actedIn> ?movie.
+FILTER (?a1 != ?a2) 
+}

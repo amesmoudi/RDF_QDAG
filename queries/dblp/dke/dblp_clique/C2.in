@@ -1,0 +1,9 @@
+SELECT ?v0 ?v4 ?v6 ?v5 WHERE
+{
+	?v0 <http://purl.org/dc/terms#issued> ?v1 .
+	?v0 <http://purl.org/dc/elements/1.1#identifier> ?v2 .
+	?v0 <http://swrc.ontoware.org/ontology#volume> ?v3 .
+	?v5 <http://purl.org/dc/elements/1.1#type> ?v4 .
+	?v6 <http://purl.org/dc/elements/1.1#subject> ?v4 .
+}
+

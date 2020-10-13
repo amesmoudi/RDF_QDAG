@@ -1,0 +1,9 @@
+SELECT ?x ?y WHERE
+{
+?x <http://db.uwaterloo.ca/~galuc/wsdbm/friendOf> ?y .
+?y <http://schema.org/email> ?z .
+?y <http://xmlns.com/foaf/familyName> ?e .
+?y <http://xmlns.com/foaf/givenName> ?r .
+?y <http://db.uwaterloo.ca/~galuc/wsdbm/userId> ?t .
+?y <http://schema.org/birthDate> ?u .
+}

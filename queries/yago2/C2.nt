@@ -1,0 +1,9 @@
+SELECT distinct ?name WHERE 
+{ 
+?p <http://www.w3.org/2000/01/rdf-schema#label> ?name.
+?p [] ?c1.
+?p [] ?c2.
+?c1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <wordnet village 108672738>.
+?c2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <wordnet site 108651247>. 
+?c1 <http://www.w3.org/2000/01/rdf-schema#label> \London".
+?c2 <http://www.w3.org/2000/01/rdf-schema#label> \Paris". }

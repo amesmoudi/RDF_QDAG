@@ -1,0 +1,6 @@
+SELECT ?v0 ?v1 WHERE
+{
+	?v0 <http://purl.org/dc/terms#tableOfContent> ?v1 .
+	?v0 <http://purl.org/dc/terms#bibliographicCitation> <http://dblp.uni-trier.de/rec/bibtex/series/cogtech/Helbig2006> .
+}
+

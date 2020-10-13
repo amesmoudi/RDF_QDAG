@@ -1,0 +1,6 @@
+SELECT ?v0 ?v1 ?v2 WHERE
+{
+?v0 <http://purl.org/dc/elements/1.1/title> ?v1 .
+?v0 <http://www.w3.org/2002/07/owl#sameAs> ?v3 .
+?v0 <http://purl.org/dc/terms/bibliographicCitation> ?v2 .
+}

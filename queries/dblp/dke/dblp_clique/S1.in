@@ -1,0 +1,9 @@
+SELECT ?v0 ?v1 ?v2 ?v5 WHERE
+{
+	?v0 <http://purl.org/dc/elements/1.1#creator> ?v1 .
+	?v0 <http://xmlns.com/foaf/0.1#maker> ?v2 .
+	?v0 <http://swrc.ontoware.org/ontology#journal> ?v3 .
+	?v0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?v4 .
+	?v0 <http://www.w3.org/2000/01/rdf-schema#label> ?v5 .
+}
+

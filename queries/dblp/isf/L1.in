@@ -1,0 +1,7 @@
+SELECT ?v0 ?v1 ?v2 ?v3 WHERE
+{
+	?v0 <http://purl.org/dc/elements/1.1/creator> ?v1 .
+	?v0 <http://xmlns.com/foaf/0.1/maker> ?v2 .
+	?v0 <http://xmlns.com/foaf/0.1/homepage> ?v3 .	
+}
+

@@ -1,0 +1,14 @@
+SELECT ?name WHERE 
+{ 
+?a <http://www.w3.org/2000/01/rdf-schema#label> ?name .
+?a <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> wordnet_actor_109765278.
+?a <http://yago-knowledge.org/resource/livesIn> ?city .
+?city <http://yago-knowledge.org/resource/isLocatedIn> ?state .
+?state <http://yago-knowledge.org/resource/isLocatedIn>\New York" .
+?a <http://yago-knowledge.org/resource/actedIn> ?m1.
+?m1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "wordnet_movie_106613686".
+?m1 y:hasProductionLanguage \Englishlanguage".
+?a <http://yago-knowledge.org/resource/directed> ?m2 .
+?m2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "wordnet_movie_106613686".
+?m2 y:hasProductionLanguage \English language" 
+}

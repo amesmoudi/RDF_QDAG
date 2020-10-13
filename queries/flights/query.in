@@ -1,0 +1,6 @@
+SELECT ?c ?f ?m WHERE {
+	?c <http://www.example.org/hasFlight> ?f .
+	?f <http://www.example.org/depAirport> <http://www.airports.org/El_Prat> .
+	?f <http://www.example.org/airplaneModel> ?m .
+}
+
